@@ -11,7 +11,7 @@ print("ciao")
 etfs = ['SPY', 'QQQ', 'EFA', 'TLT', 'GLD']
 
 # Download data
-df = yf.download(etfs, start="2010-01-01", end="2024-03-10")['Adj Close']
+df = yf.download(etfs, start="2010-01-01", end="2024-03-10")["Close"]
 
 # Save to CSV (optional)
 df.to_csv('etf_prices.csv')
