@@ -8,7 +8,7 @@ print("ciao")
 
 
 # List of ETFs (replace with your choices)
-etfs = ['SPY', 'QQQ', 'EFA', 'TLT', 'GLD']
+etfs = ['EEM', 'IMAE.AS', 'VOO', 'SGLD.SW']
 
 # Download data
 df = yf.download(etfs, start="2010-01-01", end="2024-03-10")["Close"]
